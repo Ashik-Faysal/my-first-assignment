@@ -6,7 +6,7 @@
 }
 /* Header section styles started */
 
-.btn-primary{       /*For all button*/
+.btn-primary{ 
     background-color: #F15B22;
     color: #F0F8FF;
     border: 0;
@@ -99,3 +99,29 @@ ul li {
     font-size: 28px;
 }
 /*My plans section styles end  */
+
+/* start positive mindset */
+.positive-mindset{
+    background-image: url("../images/watch.png"), linear-gradient(0.25turn, #651c39, #58ece5, #f69d3c);
+    background-blend-mode: soft-light;
+    height: 150px;
+    width: 800px;
+    padding: 10px 50px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.positive-mindset-header{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.btn-secondary{
+    background-color: #FFF;
+        color: #F15B22;
+        border: 0;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 22px;    
+}
+ /*end positive mintset */
