@@ -46,7 +46,7 @@
     margin-top: 30px;
     padding: 60px;
     gap: 50px; 
-     position: absolute;
+     /* position: absolute; */
 }
 .section-image{
     height: 500px;
@@ -71,3 +71,31 @@ ul li {
     /* tick mark add */
     margin-bottom: 5px;
 }
+/* previous year section end */
+/* my plans  styles start */
+
+.my-plans{
+    text-align: center;
+    padding: 10px 100px;
+    margin-bottom: 40px;
+}
+.my-plans-header{
+    font-size: 64px;
+    margin-bottom: 32px;
+    font-weight: 700;
+}
+.my-future-plans{
+    display: flex;
+    justify-content: space-around;
+}
+.my-future-plans-img {
+    height: 64px;
+    width: 64px;
+    margin-bottom: 10px;
+}
+.my-future-plans h2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 28px;
+}
+/*My plans section styles end  */
