@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
+    font-family: 'Work Sans', sans-serif;
 }
 /* Header section styles started */
 
-.btn-primary{
+.btn-primary{       /*For all button*/
     background-color: #F15B22;
     color: #F0F8FF;
     border: 0;
@@ -25,8 +26,7 @@
     width: 425px;
     height: 28px;
     padding-top: 136px;
-    padding-left: 250px;
-    
+    padding-left: 250px; 
 }
 .header-alignment h1 {
     font-weight: 700;
@@ -37,3 +37,35 @@
     margin-bottom: 16px;
 }
 /* end header section */
+
+/* failures-section start */
+.failures-section{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 30px;
+    padding: 60px;
+    gap: 50px; 
+     position: absolute;
+}
+.section-image{
+    height: 500px;
+    width: 370px;
+}
+.previous-year{
+    margin-top: 150px;
+    height: 400px;
+    width: 416px;
+  position: relative;
+}
+.previous-year h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.previous-year p{
+    margin-bottom: 16px;
+}
+ul li {
+    list-style: url(../images/icons/tick-mark-icon.svg);
+    margin-bottom: 5px;
+}
