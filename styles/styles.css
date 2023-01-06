@@ -26,7 +26,8 @@
     width: 425px;
     height: 28px;
     padding-top: 136px;
-    padding-left: 250px; 
+    padding-left: 450px; 
+    padding-bottom: 10px;
 }
 .header-alignment h1 {
     font-weight: 700;
@@ -41,7 +42,7 @@
 /* failures-section start */
 .failures-section{
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-between;
     margin-top: 30px;
     padding: 60px;
     gap: 50px; 
@@ -55,7 +56,7 @@
     margin-top: 150px;
     height: 400px;
     width: 416px;
-  position: relative;
+  /* position: relative; */
 }
 .previous-year h2 {
     font-weight: 700;
@@ -67,5 +68,6 @@
 }
 ul li {
     list-style: url(../images/icons/tick-mark-icon.svg);
+    /* tick mark add */
     margin-bottom: 5px;
 }
