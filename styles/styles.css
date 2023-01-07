@@ -47,6 +47,14 @@
     margin-top: 20px;
    text-align: center;
 }
+.my-section-img{
+    height: 62px;
+        width: 62px;
+        display: flex; 
+      justify-content: left;
+      padding: 16px;
+      position: absolute;
+}
 .my-section-bar ul{
     display: flex;
     justify-content: right;
@@ -72,6 +80,7 @@
     margin-bottom: 16px;
     font-size: 64px;
     font-weight: 700;
+    /* my section styles end  */
 }
 /* failures-section start */
 
