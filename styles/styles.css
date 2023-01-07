@@ -125,3 +125,51 @@ ul li {
         font-size: 22px;    
 }
  /*end positive mintset */
+
+ /* add footer section styles  */
+ .footer-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #FFF;
+    padding: 50px 100px;
+    margin-bottom: 10px;
+ }
+ .footer-future{
+    padding: 5px 40px;
+ }
+ .footer-header{
+    font-weight: 700;
+    margin-bottom: 16px;
+ }
+ .footer-future p{
+    margin-bottom: 20px;
+ }
+ .footer-icon img{
+    padding: 10px;
+ }
+
+ .footer-subscription{
+    width: 325px;
+        height: 204px;
+        padding: 30px 5px;
+ }
+ .footer-subscribsion-header{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 24px;
+ }
+ .input-email{
+    height: 24px;
+    width: 190px;
+    padding: 10px;
+    background-color: #000;
+    color: #FFF;
+    margin-bottom: 20px;
+    border: 1px solid #808080;
+ }
+.input-email:hover{
+    background-color: rgb(52, 6, 6);
+    transition: 0.4s;
+}
+/* end footer sectioon style */
