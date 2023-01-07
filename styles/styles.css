@@ -39,7 +39,42 @@
 }
 /* end header section */
 
+/* my section styles start  */
+.my-section{
+    background-image: url("../images/tu.jpg");
+    height: 900px;
+    width: 100%;
+    margin-top: 20px;
+   text-align: center;
+}
+.my-section-bar ul{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+.my-section-bar ul li{
+    list-style: none;
+    margin-right: 8px;
+    padding: 10px;
+    color: rgb(73, 23, 23);
+}
+.my-section-header{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.my-section-header h2{
+    margin-bottom: 16px;
+    font-size: 64px;
+    font-weight: 700;
+}
 /* failures-section start */
+
 .failures-section{
     display: flex;
     justify-content: space-between;
